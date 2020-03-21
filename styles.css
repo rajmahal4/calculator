@@ -1,0 +1,15 @@
+.gridContainer{
+    /* border-color: slategray; */
+    display: grid;
+    width: 1em;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: minmax(2em, 3em) minmax(2em, 3em) min-content;
+    -ms-grid-column-align: center;
+    font-size: small;
+}
+
+.gridItems{
+    height: 3fr;
+    width: 3fr;
+
+}
